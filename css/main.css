@@ -43,7 +43,7 @@ i.large { font-size: 60px; }
 
  /* Add a black background color to the top navigation */
 .topnav {
-    
+
     overflow: hidden;
 }
 
@@ -76,7 +76,12 @@ i.large { font-size: 60px; }
 .topnav .icon {
     display: none;
     opacity: 0.6;
-} 
+}
+
+.showbiz .mediaholder img{
+  height:170px;
+  width:auto;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
